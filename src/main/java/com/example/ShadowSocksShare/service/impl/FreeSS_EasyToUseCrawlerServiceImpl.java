@@ -22,7 +22,7 @@ import java.util.Set;
 @Service
 public class FreeSS_EasyToUseCrawlerServiceImpl extends ShadowSocksCrawlerService {
 	// 目标网站 URL
-	private static final String TARGET_URL = "https://freess.cx/";
+	private static final String TARGET_URL = "https://ss.freess.org/";
 	// 访问目标网站，是否启动代理
 	@Value("${proxy.enable}")
 	@Getter
