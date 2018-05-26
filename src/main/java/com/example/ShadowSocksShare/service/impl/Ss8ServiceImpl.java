@@ -22,7 +22,7 @@ import java.util.Set;
 @Service
 public class Ss8ServiceImpl extends ShadowSocksCrawlerService {
 	// 目标网站 URL
-	private static final String TARGET_URL = "https://en.ss8.fun/";
+	private static final String TARGET_URL = "https://get.ss8.fun/";
 	// 访问目标网站，是否启动代理
 	@Value("${proxy.enable}")
 	@Getter
