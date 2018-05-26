@@ -55,55 +55,55 @@ public class ShadowSocksTasks {
 
 
 	// https://global.ishadowx.net/
-	@Scheduled(cron = "0 10 0/1 * * ?")
+	@Scheduled(cron = "0 3 0/1 * * ?")
 	public void iShadowCrawler() {
 		shadowSocksSerivce.crawlerAndSave(iShadowCrawlerServiceImpl);
 	}
 
 	// https://doub.io
-	@Scheduled(cron = "0 10 0/3 * * ?")
+	@Scheduled(cron = "0 3 0/3 * * ?")
 	public void doubCrawler() {
 		shadowSocksSerivce.crawlerAndSave(doubCrawlerServiceImpl);
 	}
 
 	// https://freess.cx/#portfolio-preview
-	@Scheduled(cron = "0 10 0/3 * * ?")
+	@Scheduled(cron = "0 3 0/3 * * ?")
 	public void freeSS_EasyToUseCrawler() {
 		shadowSocksSerivce.crawlerAndSave(freeSS_EasyToUseCrawlerServiceImpl);
 	}
 
 	// https://en.ss8.fun/
-	@Scheduled(cron = "0 10 0/2 * * ?")
+	@Scheduled(cron = "0 3 0/2 * * ?")
 	public void ss8Crawler() {
 		shadowSocksSerivce.crawlerAndSave(ss8ServiceImpl);
 	}
 
 	// https://freessr.win/
-	@Scheduled(cron = "0 10 0/3 * * ?")
+	@Scheduled(cron = "0 3 0/3 * * ?")
 	public void freeSSRCrawler() {
 		shadowSocksSerivce.crawlerAndSave(freeSSRCrawlerServiceImpl);
 	}
 
 	// https://free-ss.site/
-	@Scheduled(cron = "0 10 0/1 * * ?")
+	@Scheduled(cron = "0 3 0/1 * * ?")
 	public void free_ssCrawler() {
 		shadowSocksSerivce.crawlerAndSave(free_ssCrawlerServiceImpl);
 	}
 
 	// https://www.52ssr.cn/
-	@Scheduled(cron = "0 10 0/1 * * ?")
+	@Scheduled(cron = "0 3 0/1 * * ?")
 	public void ssrBlueCrawler() {
 		shadowSocksSerivce.crawlerAndSave(ssrBlueCrawlerServiceImpl);
 	}
 
 	// https://free.yitianjianss.com/
-	@Scheduled(cron = "0 10 0/1 * * ?")
+	@Scheduled(cron = "0 3 0/1 * * ?")
 	public void free_yitianjianssCrawler() {
 		shadowSocksSerivce.crawlerAndSave(free_yitianjianssCrawlerServiceImpl);
 	}
 
 	// https://prom-php.herokuapp.com/cloudfra_ssr.txt
-	@Scheduled(cron = "0 10 0/1 * * ?")
+	@Scheduled(cron = "0 3 0/1 * * ?")
 	public void promPHPCrawler() {
 		shadowSocksSerivce.crawlerAndSave(promPHPCrawlerServiceImpl);
 	}
