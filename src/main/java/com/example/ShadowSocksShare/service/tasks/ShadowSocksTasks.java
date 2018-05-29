@@ -111,17 +111,17 @@ public class ShadowSocksTasks {
 	/**
 	 * SS 有效性检查，每 1 小时
 	 */
-	/*@Scheduled(cron = "0 0 0/1 * * ?")
+	@Scheduled(cron = "0 0 0/1 * * ?")
 	public void checkValid() {
 		shadowSocksSerivce.checkValid();
-	}*/
+	}
 
 	/**
 	 * 为防止 herokuapp 休眠，每 10 分钟访问一次
 	 */
-	/*@Scheduled(cron = "${health.cron}")
+	@Scheduled(cron = "${health.cron}")
 	public void monitor() throws IOException {
 		if (StringUtils.isNotBlank(healthURL))
 			Jsoup.connect(healthURL).get();
-	}*/
+	}
 }
